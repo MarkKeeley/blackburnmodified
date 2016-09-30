@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+<div class="header">
+  <h1>Ack, a 404 page</h1>
+</div>
+
+<div class="content">
+  Hmm this is no good. Seems you have reached a 404 page.
+  {{ with .Site.Params.brand }}
+    <a class="pure-menu-heading brand" href="/">{{ . | safeHTML }}</a>
+  {{ end }}
+
+</div>
+
+{{ partial "footer.html" . }}
