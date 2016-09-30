@@ -1,2 +1,2 @@
 # blackburnmodified
-My modifications of the blackburn theme for Hugo
+My modifications of the fantastic [blackburn theme](https://github.com/yoshiharuyamashita/blackburn/) for Hugo
